@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
-"""Tuple module with type annotation"""
+"""
+Complex types - string and int/float to tuple
+Write typed-annotated function to_kv that takes str k and an int OR float v
+Returns a tuple
+"""
 from typing import Union, Tuple
 
+
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    """ Returns a tuple containing k and the square of v """
+    """
+    Typed-annotated function
+    to_kv
+    """
     return (k, v * v)
