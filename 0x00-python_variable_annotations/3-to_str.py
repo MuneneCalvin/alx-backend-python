@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
-"""to_Str module with type annotation"""
+"""
+Basic annotations - to string
+Write typed-annotation function to_str that takes a float argument
+Returns string repr of the float
+"""
+
 
 def to_str(n: float) -> str:
-    """Returns the string representation of a floating point number n"""
+    """
+    Type-annotated function
+    to_str
+    """
     return str(n)
