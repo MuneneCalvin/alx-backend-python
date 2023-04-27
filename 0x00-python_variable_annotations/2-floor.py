@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
-"""Floor module with type annotation"""
-import math
+"""
+Basic annotations - floor
+Write type-annotated function floor with float argument
+Returns floor of the float
+"""
+
 
 def floor(n: float) -> int:
-    """Returns the floor of a floating point number n"""
-    return math.floor(n)
+    """
+    Type-annotated function
+    Floor
+    """
+    return int(n)
